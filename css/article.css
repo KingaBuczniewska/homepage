@@ -1,0 +1,13 @@
+.article__header {
+    color: rgb(241, 117, 59);
+    background-color: rgb(252, 242, 212);
+    margin: 25px auto
+}
+
+.article__element {
+    color: firebrick;
+}
+
+.article__link {
+    color: rgb(2, 89, 250);
+}

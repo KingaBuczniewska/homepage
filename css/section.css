@@ -1,0 +1,22 @@
+.section__header {
+    color: rgb(212, 152, 23);
+    background-color: rgb(252, 242, 212);
+}
+
+.section__list {
+    padding-left: 30px;
+}
+
+.section__listItem {
+    margin: 10px 0;
+    text-align: left;
+    padding: 1px;
+}
+
+.section__header--color {
+    color: rgb(248, 35, 35);
+}
+
+.section__header--yellow {
+    color: rgb(212, 152, 23);
+}

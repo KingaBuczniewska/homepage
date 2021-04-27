@@ -1,0 +1,10 @@
+.special {
+    margin: 0px;
+    display: inline-block;
+}
+
+.special__listItem {
+    margin: 10px 0;
+    text-align: left;
+    padding: 1px;
+}
