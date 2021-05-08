@@ -1,31 +1,55 @@
 {
-    
-    const showImage = () => {
-
-       const header__image = document.querySelector(".header__image");
-
-        if (header__image.classList.contains("hidden")) { // czy jest niewidzialny
-            header__image.classList.remove("hidden"); // usun niewidzialnosc
-            header__button.innerText = "Schowaj zdjęcie";
-
-        } else {
-            header__image.classList.add("hidden"); // dodaj niewidzialnosc
-            header__button.innerText = "Pokaż zdjęcie";
-        }
-
-    }
-
-    clickButton();
-};
+    const toggleImage = () => {
+        const headerImage = document.querySelector(".js-headerImage");
+        const buttonChange = document.querySelector(".js-buttonChange");
+        headerImage.classList.toggle("header__image--hidden");
+        buttonChange.innerText = buttonChange.innerText === "Schowaj zdjęcie" ? "Pokaż zdjęcie" : "Schowaj zdjęcie";
+    };
+    const init = () => {
+        const headerButton = document.querySelector(".js-headerButton");
+        headerButton.addEventListener("click", toggleImage);
+    };
+    init();
 
 
-const init = () => {
-    header__button.addEventListener("click");
-     const header__button = document.querySelector(".header__button");
-      
-};
+}
 
-init();
+
+
+
+
+
+
+
+
+
+
+
+// {
+
+//     const showImage = () => {
+
+//        const header__image = document.querySelector(".header__image");
+
+//         if (header__image.classList.contains("hidden")) { 
+//             header__image.classList.remove("hidden"); 
+//             header__button.innerText = "Schowaj zdjęcie";
+
+//         } else {
+//             header__image.classList.add("hidden"); 
+//             header__button.innerText = "Pokaż zdjęcie";
+//         }
+
+//     clickButton();
+// };
+
+// const init = () => {
+//     header__button.addEventListener("click");
+//      const header__button = document.querySelector(".header__button");
+
+// };
+
+// init();
 
 
 
