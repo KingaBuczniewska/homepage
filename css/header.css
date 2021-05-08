@@ -43,7 +43,7 @@
     color: rgb(235, 1, 1);
 }
 
-.hidden {
+.header__image--hidden {
     display: none;
 }
 
