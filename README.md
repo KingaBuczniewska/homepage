@@ -1,4 +1,4 @@
-# Kinga Buczniewska- strona o Kinesiology Tapingu 
+# Kinga Buczniewska- Kinesiology Taping
 
 ## Demo
 
@@ -25,9 +25,4 @@ This is my personal site about Kinesiology Taping.
 * HTML
 * CSS
 * BEM
-* JavaScript
-
-
-
-
-
+* ES6+
