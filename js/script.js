@@ -1,9 +1,9 @@
 {
     const toggleImage = () => {
         const headerImage = document.querySelector(".js-headerImage");
-        const buttonChange = document.querySelector(".js-buttonChange");
+        const changeButton = document.querySelector(".js-changeButton");
         headerImage.classList.toggle("header__image--hidden");
-        buttonChange.innerText = buttonChange.innerText === "Schowaj zdjęcie" ? "Pokaż zdjęcie" : "Schowaj zdjęcie";
+        changeButton.innerText = changeButton.innerText === "Schowaj zdjęcie" ? "Pokaż zdjęcie" : "Schowaj zdjęcie";
     };
     const init = () => {
         const headerButton = document.querySelector(".js-headerButton");
