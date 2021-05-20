@@ -4,24 +4,24 @@
 
 https://kingabuczniewska.github.io/homepage/
 
-## Table of content :ledger:
+## Table of contents
 * [General info](#general-info)
 * [Screenshot](#screenshot)
 * [Logo](#logo)
 * [Technologies](#technologies)
 
-## General info :mag:
+## General info 
 
 This is my personal site about Kinesiology Taping.
 
-## Screenshot :camera:
+## Screenshot
 ![](https://github.com/KingaBuczniewska/homepage/blob/main/images/screenshot.jpg?raw=true)
 
-## Logo :crayon:
+## Logo 
 ![Here's my logo](https://github.com/KingaBuczniewska/homepage/blob/main/images/HBM.png?raw=true)
 
 
-## Technologies :computer:
+## Technologies 
 * HTML
 * CSS
 * BEM
